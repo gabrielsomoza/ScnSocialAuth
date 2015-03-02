@@ -14,12 +14,18 @@
             "homepage": "http://socalnick.github.com/"
         }
     ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "git://github.com/gabrielsomoza/hybridauth.git"
+      }
+    ],
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.*",
         "zf-commons/zfc-base": "0.1.*",
         "zf-commons/zfc-user": ">=1.2.2 <2.0.0",
-        "hybridauth/hybridauth": "2.4.*"
+        "hybridauth/hybridauth": "dev-bitbucket-provider"
     },
     "require-dev": {
         "mockery/mockery": "0.8.0"
